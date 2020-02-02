@@ -824,34 +824,16 @@ print "&MAW=".$MAW."&SCD=".$SCD."&Highlight="."B";?>" />
         				</div>
     				</div>
     				<div class="row">
-                        			Sponsored Content
-                        			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- biki neo border -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8632041780575483"
-     data-ad-slot="1096474001"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+                        			Sponsored Content 
+                        			Redacted
+
                         		</div>
         		</div>
  			</div>
   		</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="http://bikibird.com/neo/js/bootbox.min.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-73392356-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 <script src="../../js/drum.js"></script>
 <script src="../../js/biki.js"></script>
 <script src="../../js/hammer.min.js"></script>
