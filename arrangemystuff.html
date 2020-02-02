@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+ 	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<link rel="stylesheet" href="http://bikibird.com/css/bikibird.css">
+		<title>My Stuff</title>
+	</head>
+	<body>
+		<div class="container" id="biki-mystuff">
+			
+				<ul>
+    <li draggable="true" ondragenter="dragenter(event)" ondragstart="dragstart(event)">Apples</li>
+    <li draggable="true" ondragenter="dragenter(event)" ondragstart="dragstart(event)">Oranges</li>
+    <li draggable="true" ondragenter="dragenter(event)" ondragstart="dragstart(event)">Bananas</li>
+    <li draggable="true" ondragenter="dragenter(event)" ondragstart="dragstart(event)">Strawberries</li>
+</ul>
+			
+		</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+function isbefore(a, b) {
+    if (a.parentNode == b.parentNode) {
+        for (var cur = a; cur; cur = cur.previousSibling) {
+            if (cur === b) { 
+                return true;
+            }
+        }
+    }
+    return false;
+} 
+
+function dragenter(e) {
+    if (isbefore(source, e.target)) {
+        e.target.parentNode.insertBefore(source, e.target);
+    }
+    else {
+        e.target.parentNode.insertBefore(source, e.target.nextSibling);
+    }
+}
+
+function dragstart(e) {
+    source = e.target;
+    e.dataTransfer.effectAllowed = 'move';
+}
+</script>
+
+	</body>
+</html>	
